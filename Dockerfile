@@ -1,6 +1,8 @@
 FROM ubuntu:trusty
 MAINTAINER Fernando Mayo <fernando@tutum.co>, Feng Honglin <hfeng@tutum.co>
 
+RUN echo 'Testing webhook.'
+
 # Install packages
 ENV DEBIAN_FRONTEND noninteractive
 RUN apt-get update && \
